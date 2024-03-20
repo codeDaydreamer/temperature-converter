@@ -1,0 +1,60 @@
+body{
+    background: grey;
+
+}
+form{
+    background: rgba(222, 221, 221, 0.89);
+    margin: auto;
+    border-radius: 15px;
+    max-width: 550px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    box-shadow: 10px 10px 15px  rgba(165, 42, 42, 0.674);
+
+}
+h1{color: brown;}
+#textbox{
+    text-align: center;
+    font-size: 2em;
+    border-radius: 15px;
+    border: none;
+    color: brown;
+}
+
+
+input[type="radio"] {
+    display: inline-block;
+    padding: 2px 2px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    width: 20px;
+    height: 20px;
+    color: brown;
+    border: 2px solid brown;
+    vertical-align: baseline;
+    
+}
+
+input[type="radio"]:checked  {
+    background-color: brown;
+    border-color: brown;
+}
+button{
+    color: whitesmoke;
+    background-color: brown;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:active{
+    background: rgb(97, 24, 24);
+}
+button:hover{
+    background: rgb(135, 34, 34);
+}
+
+

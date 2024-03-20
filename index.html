@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Varianle scope</title>
+</head>
+<body>
+    <form action="">
+        <h1>Temperature Converter</h1>
+        <h2>Input temperature value below:</h2>
+        <input type="number" id="textbox" value="0"><br><br>
+        <input type="radio" id="toFarenheit" name="unit">
+        <label for="toFarenheit">Convert to Farenheit</label>
+        <input type="radio" id="toCelcius" name="unit">
+        <label for="toCelcius">Convert to Celcius</label><br><br>
+        <button type="button" onclick="convert()">Convert</button>
+        <p id="result">Result</p>
+    </form>
+
+    <script src="scrpt.js"></script>
+</body>
+</html>
